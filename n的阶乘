@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+	int n, k;
+	int sum;
+	printf("plz input n: ");
+	scanf("%d", &n);
+	sum = 1;
+	k = 1;
+	do {
+		sum *= k;
+		k++;
+
+	} while (k <= n);
+	printf("sum=%d\n", sum);
+	return 0;
+}
