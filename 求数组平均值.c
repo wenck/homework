@@ -11,6 +11,6 @@ int main() {
 		sum += b[i];
 
 	}
-	printf("%f", sum / n);
+	printf("%f\n", sum / n);
 	return 0;
 }
